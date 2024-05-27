@@ -2,6 +2,10 @@ package org.example.trees;
 
 import java.util.*;
 
+//TC: O(1)
+//SC: O(n)
+//Problem link: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+// Level: Medium
 public class BottomView {
     public ArrayList<Integer> bottomView(Node root) {
         // Code here
