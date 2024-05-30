@@ -4,7 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-//Problem link: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+//Problem link:
+
 // Level: Medium
 public class FlattenTreeToLinkedList {
     // recursion
