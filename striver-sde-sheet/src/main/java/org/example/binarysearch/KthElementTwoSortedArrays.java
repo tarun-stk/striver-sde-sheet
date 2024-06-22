@@ -4,7 +4,7 @@ package org.example.binarysearch;
 //SC: O(1)
 //Problem link: https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1
 //Level: Medium
-public class KthElementTowSortedArrays {
+public class KthElementTwoSortedArrays {
     public long kthElement(int nums1[], int nums2[], int n1, int n2, int k) {
         // Approach from TUF.
         int n = n1 + n2;
