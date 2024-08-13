@@ -7,7 +7,7 @@ import java.util.Map;
 
 //TC: O(n)
 //SC: O(n)
-//Problem link: https://leetcode.com/problems/top-k-frequent-elements/description/
+//Problem link: https://leetcode.com/problems/top-k-frequent-elements/
 // Level: Medium
 public class TopKFrequentElements {
 

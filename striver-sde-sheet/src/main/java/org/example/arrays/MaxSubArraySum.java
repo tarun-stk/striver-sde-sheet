@@ -20,4 +20,17 @@ public class MaxSubArraySum {
         }
         return max;
     }
+
+    /*other simple way using kadane's algo*/
+    public int maxSubArray1(int[] nums) {
+        int max = 0, sum = 0;
+        for(int i: nums){
+            sum += i;
+            max = Math.max(max, sum);
+            if(sum < 0){
+                sum = 0;
+            }
+        }
+        return max;
+    }
 }

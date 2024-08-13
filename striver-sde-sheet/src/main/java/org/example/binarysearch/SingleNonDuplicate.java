@@ -7,7 +7,7 @@ package org.example.binarysearch;
 public class SingleNonDuplicate {
     public int singleNonDuplicate(int[] nums) {
         int l = 0, h = nums.length - 1, n = nums.length;
-        while (l < h) {
+        while (l <= h) {
             int m = h - (h - l) / 2;
             boolean isDupOnLeft = false, isDupOnRight = false;
             if (m > 0 && nums[m - 1] == nums[m]) {

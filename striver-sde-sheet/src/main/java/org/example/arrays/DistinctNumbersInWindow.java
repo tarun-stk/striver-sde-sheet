@@ -6,7 +6,7 @@ import java.util.Map;
 
 //TC: O(n)
 //SC: O(n)
-//Problem link: https://www.interviewbit.com/problems/distinct-numbers-in-window/
+    //Problem link: https://www.interviewbit.com/problems/distinct-numbers-in-window/
 // Level: Medium
 public class DistinctNumbersInWindow {
     public ArrayList<Integer> dNums(ArrayList<Integer> A, int B) {

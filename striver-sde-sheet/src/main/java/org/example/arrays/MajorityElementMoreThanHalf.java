@@ -5,7 +5,7 @@ package org.example.arrays;
 //Problem link: https://leetcode.com/problems/majority-element/
 //Level: Easy
 public class MajorityElementMoreThanHalf {
-    // Moore's vorting algo
+    // Moore's voting algo
 //    it states that count must stay positive if majority element is there in the array
     public int majorityElement(int[] nums) {
         int ele = -1, f = 0, n = nums.length;

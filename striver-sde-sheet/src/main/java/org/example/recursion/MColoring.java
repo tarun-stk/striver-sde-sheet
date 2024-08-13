@@ -6,7 +6,7 @@ import java.util.List;
 
 //Time Complexity: O(n*m^n)
 //Space Complexity: O(n^2)
-//Problem link: https://leetcode.com/problems/palindrome-partitioning/description/
+//Problem link: https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
 //Level: Medium
 public class MColoring {
     public boolean graphColoring(boolean graph[][], int m, int n) {

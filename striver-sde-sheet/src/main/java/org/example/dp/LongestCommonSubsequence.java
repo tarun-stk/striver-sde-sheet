@@ -2,7 +2,7 @@ package org.example.dp;
 
 import java.util.Arrays;
 
-//Problem link: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+//Problem link: https://leetcode.com/problems/longest-common-subsequence/description/
 // Level: Medium
 public class LongestCommonSubsequence {
     // TC: O(2^(m+n))
